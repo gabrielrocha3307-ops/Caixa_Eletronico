@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, sans-serif;
+    background-color: #e9eef3 ;
+
+    min-height: 100vh; 
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atm {
+
+    width: 100%;
+    max-width: 500px;
+}
+
+.cabecalho {
+    background-color: #123c69;
+    color: white;
+
+    padding: 25px;
+
+    text-align: center;
+
+    border-radius: 15px 15px 0 0;
+
+   
+}
+
+.cabecalho h1 {
+    font-size: 24px;
+}
+
+.caixa {
+    background-color: white;
+
+    padding: 35px;
+
+    border-radius: 0 0 15px 15px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.caixa h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.saldo {
+    background-color: #f1f5f9;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.saldo p {
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.saldo strong {
+    font-size: 28px;
+}
+
+.saque label {
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-weight: bold;
+}
+
+.saque input {
+    width: 100%;
+
+    padding: 15px;
+
+    font-size: 18px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    margin-bottom: 15px;
+}
+
+.saque button {
+    width: 100%;
+
+    padding: 15px;
+
+    background-color: #123c69;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.saque button:hover {
+    background-color: #0d2e50;
+}
